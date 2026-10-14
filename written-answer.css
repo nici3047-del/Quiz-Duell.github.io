@@ -1,0 +1,12 @@
+#writtenAnswerForm{width:min(620px,100%);margin-top:24px;padding:18px;background:#06131e;border:1px solid #41647d;border-radius:12px}
+#writtenAnswerForm label{display:block;margin-bottom:9px;color:#82d2ff;font:800 11px system-ui;letter-spacing:.13em}
+#writtenAnswerForm>div{display:grid;grid-template-columns:1fr auto;gap:8px}
+#writtenAnswerInput{min-width:0;padding:13px;border:1px solid #4d718a;border-radius:8px;background:#020a11;color:#fff;font:700 18px ui-monospace,monospace}
+#writtenAnswerForm button{border:0;border-radius:8px;padding:0 16px;background:#078eca}
+#writtenAnswerHint{display:block;margin-top:9px;color:#8ca5b7;font:600 11px system-ui}
+.submitted-answer{margin:14px 0;padding:16px;border:2px solid var(--g);border-radius:12px;background:#2c2407;text-align:center}
+.submitted-answer small,.submitted-answer strong,.submitted-answer code{display:block}
+.submitted-answer small{color:var(--g);font:800 10px system-ui;letter-spacing:.14em}
+.submitted-answer strong{margin:7px 0;color:#fff;font:800 13px system-ui}
+.submitted-answer code{font-size:24px;color:#fff;white-space:pre-wrap;overflow-wrap:anywhere}
+@media(max-width:520px){#writtenAnswerForm>div{grid-template-columns:1fr}#writtenAnswerForm button{padding:12px}}
