@@ -1,0 +1,7 @@
+.player-area{display:none}
+body:not(.is-mod) .player-area{display:block}
+.player-area>.board{margin-bottom:22px}
+.player-area .console{display:grid;min-height:42vh}
+.readonly .tile{cursor:default;opacity:.82}
+.readonly .tile:hover{filter:none;transform:none}
+.readonly .tile:disabled{color:#fff}

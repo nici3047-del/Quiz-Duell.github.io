@@ -1,0 +1,10 @@
+.timer{display:flex;align-items:center;justify-content:center;gap:14px;margin:18px 0}
+.timer strong,.player-timer{font:900 32px ui-monospace,monospace;color:var(--g)}
+.timer button{padding:11px 15px;border:1px solid #53728a;border-radius:9px;background:#183b56}
+.expired{color:#ff315f!important;animation:pulse .65s infinite alternate}
+.team-judge{grid-template-columns:1fr 1fr}
+.team-judge button:nth-child(1){background:#7d102e}
+.team-judge button:nth-child(2){background:#c91343}
+.team-judge button:nth-child(3){background:#075884}
+.team-judge button:nth-child(4){background:#078eca}
+@keyframes pulse{to{transform:scale(1.08)}}
